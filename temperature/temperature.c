@@ -8,7 +8,7 @@ void human_days(int index, char **human_day) {
 }
 
 void read_temp(float temperatures[WEEKS][DAYS_WEEK]) {
-	int x, y;
+  int x, y;
   char *day;
   for(x = 0; x < WEEKS; x++) {
   	for(y = 0; y < DAYS_WEEK; y++) {
@@ -16,7 +16,7 @@ void read_temp(float temperatures[WEEKS][DAYS_WEEK]) {
       printf("type the temperatures to week %d on %s: ", (x + 1), day);
       scanf("%f", &temperatures[x][y]);
     }
-	}
+  }
 }
 
 void show_greater_and_less(float greater_temp[WEEKS], float less_temp[WEEKS]) {
