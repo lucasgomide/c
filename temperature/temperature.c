@@ -3,7 +3,7 @@
 #define WEEKS 2
 
 void human_days(int index, char **human_day) {
-  char *days[8] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+  char *days[11] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
   *human_day = days[index];
 }
 
